@@ -1,5 +1,10 @@
 # autocue changelog
 
+### dev
+
+- Adapt to liquidsoap `2.3.x` expected output
+- Rename all `liq_*` metadata prefix to `cue_file_*` to avoid potentialconflict with liquidsoap internal metadata.
+
 ### 2024-08-05 - v4.1.1
 
 - Fix situation where supplied JSON data could still overwrite `cue_file` results even if a file’s `liq_cue_file` tag was set to `true`, meaning the `cue_file` results should be preferred in any case.
