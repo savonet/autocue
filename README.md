@@ -10,7 +10,7 @@ On-the-fly JSON song cue-in, cue-out, overlay, replaygain calculation for Liquid
 > **_Please read [IMPORTANT.md](IMPORTANT.md), an update on my personal situation and this project._**
 
 > [!WARNING]
-> **Autocue was made for Liquidsoap 2.2.5 and is not yet fully compatible with the new Liquidsoap 2.3.x rolling release, since some parameters have changed in Liquidsoap. I’ll start working on a new version when back.**
+> **This version of autocue is designed to work with Liquidsoap 2.3.x.**
 
 **Note:** This documentation describes the standalone `cue_file` and `autocue.cue_file`, my integration into Liquidsoap’s `autocue:` protocol.
 
